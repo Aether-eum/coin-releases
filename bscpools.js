@@ -350,6 +350,33 @@ export const bscPools = [
       'https://exchange.pancakeswap.finance/#/add/BNB/0xcf6bb5389c92bdda8a3747ddb454cb7a64626c63',
     buyTokenUrl:
       'https://exchange.pancakeswap.finance/#/swap?outputCurrency=0xcf6bb5389c92bdda8a3747ddb454cb7a64626c63',
+  },
+  {
+    id: 'ETH-BTCB-WBNB',
+    logo: 'bnb-pairs/XVS-BNB.svg',
+    name: 'index-fund ETH-BTCB-WBNB',
+    token: 'Index Fund Token',
+    tokenDescription: 'IF',
+    tokenAddress: '0x6d359406166061cB652F323d08350aB560F774eC',
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'IFT',
+    earnedTokenAddress: '0x6d359406166061cB652F323d08350aB560F774eC',
+    earnContractAddress: '0x6d359406166061cB652F323d08350aB560F774eC',
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'token',
+    oracleId: 'ETH-BTCB-WBNB',
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: 'active',
+    platform: 'Polis',
+    assets: ['ETH', 'BNB', 'BTCB'],
+    callFee: 0,
+    addLiquidityUrl:
+      'https://exchange.pancakeswap.finance/#/add/BNB/0xcf6bb5389c92bdda8a3747ddb454cb7a64626c63',
+    buyTokenUrl:
+      'https://exchange.pancakeswap.finance/#/swap?outputCurrency=0xcf6bb5389c92bdda8a3747ddb454cb7a64626c63',
   }
   
 ];
