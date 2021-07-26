@@ -365,7 +365,7 @@ export const bscPools = [
     earnContractAddress: '0x6d359406166061cB652F323d08350aB560F774eC',
     pricePerFullShare: 1,
     tvl: 0,
-    oracle: 'token',
+    oracle: 'fund',
     oracleId: 'ETH-BTCB-WBNB',
     oraclePrice: 0,
     depositsPaused: false,
